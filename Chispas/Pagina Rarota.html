@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teotihuacan La Ciudad de los Dioses</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="col bg-primary p-3 border border-2 border-dark text-white d-flex align-items-center justify-content-center text-center">
+    <h1>Teotihuacan: Ciudad de los Dioses</h1>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Teotihuacan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#historia">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#arquitectura">Arquitectura</a></li>
+          <li class="nav-item"><a class="nav-link" href="#importancia">Importancia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+
+    <div id="historia" class="row mb-4">
+      <div class="col-md-6 bg-secondary p-3 text-white d-flex justify-content-center align-items-center">
+        <img src="teotihuacan-historia.jpg" alt="Vista antigua de las pirámides de Teotihuacán" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 bg-light p-3 border d-flex align-items-center">
+        <p>
+          Teotihuacán fue una de las ciudades más influyentes de Mesoamérica. 
+          Fundada alrededor del siglo I a.C., llegó a ser un gran centro urbano, político y religioso. 
+          Su nombre significa “lugar donde los hombres se convierten en dioses”.
+        </p>
+      </div>
+    </div>
+
+    <div id="arquitectura" class="row mb-4">
+      <div class="col-md-6 bg-light p-3 border d-flex align-items-center">
+        <p>
+          La ciudad es famosa por sus monumentales construcciones, como la Pirámide del Sol, 
+          la Pirámide de la Luna y la Calzada de los Muertos. 
+          Estos edificios reflejan los avanzados conocimientos en urbanismo y arquitectura de sus habitantes.
+        </p>
+      </div>
+      <div class="col-md-6 bg-success p-3 text-white d-flex justify-content-center align-items-center">
+        <img src="teotihuacan.jpg" alt="Pirámide del Sol en Teotihuacán" class="img-fluid rounded">
+      </div>
+    </div>
+
+    <div id="importancia" class="row mb-4">
+      <div class="col-md-6 bg-danger p-3 text-white d-flex justify-content-center align-items-center">
+        <img src="teotihuacan-cultura.jpg" alt="Vista de la Calzada de los Muertos en Teotihuacán" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 bg-light p-3 border d-flex align-items-center">
+        <p>
+          Teotihuacán fue un punto clave para el comercio y la religión en Mesoamérica. 
+          Su influencia se extendió a culturas como la maya y la zapoteca. 
+          Hoy en día, es Patrimonio de la Humanidad y un símbolo de la grandeza prehispánica de México.
+        </p>
+      </div>
+    </div>
+
+    <section class="bg-light p-4 border rounded mb-4">
+      <h3 class="text-center">Mas sobre Teotihuacan</h3>
+      <p class="text-center">
+        Teotihuacán fue el corazón cultural y espiritual de Mesoamérica. 
+        Sus murales, templos y esculturas revelan la profunda conexión de sus habitantes con los dioses 
+        y el cosmos. Hoy en día, es un destino turístico y arqueológico que recibe a miles de visitantes 
+        cada año, quienes buscan conocer la historia de la legendaria Ciudad de los Dioses.
+      </p>
+    </section>
+
+    <div id="galeria" class="mb-4">
+      <h2 class="text-center mb-3">Galeria de Imágenes</h2>
+      <div id="carouselTeotihuacan" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="teotihuacan1.jpg" class="d-block w-100" alt="Vista panorámica de Teotihuacán">
+          </div>
+          <div class="carousel-item">
+            <img src="teotihuacan2.jpg" class="d-block w-100" alt="Pirámide de la Luna en Teotihuacán">
+          </div>
+          <div class="carousel-item">
+            <img src="teotihuacan3.avif" class="d-block w-100" alt="Turistas recorriendo la Calzada de los Moridos">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTeotihuacan" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselTeotihuacan" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center p-3 mt-4">
+    <p>Creado por: Catalan Gallardo Abdel Obed y tal vez un poco de ChatGPT</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+          crossorigin="anonymous"></script>
+</body>
+</html>
